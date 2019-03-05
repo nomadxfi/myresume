@@ -15,11 +15,25 @@ body {
 .about_block {
     background-color: #ffcb05;
     width: 50%;
-    
+}
+
+.row_style {
+    background-color: #52575d;
+    width: 90%;
+    height: 3px;
+    position: absolute;
+}
+.row_style::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: #ffcb05;
+    position: absolute;
+    top: 0%;
+    right: 0%;
 }
 .block__1 {
     padding-left: 40px;
-    
 }
 .block__1_1 {
     font-size: 6em;
@@ -119,3 +133,15 @@ li {
 .lang_block {
     display: flex;
 }
+.contact_block img {
+    background: #ffcb05;
+    padding: 10px;
+    border-radius: 50%;
+}
+.block.title {
+    color: #ffffff;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.wrap2 ul{margin-top: 50px;}
+
