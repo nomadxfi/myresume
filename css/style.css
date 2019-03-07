@@ -50,7 +50,6 @@ body {
 .block__1_3 {
     padding-top: 10px;
     margin-bottom: 60px;
-    
 }
 .block__1_4 {
     display: flex;
@@ -143,5 +142,7 @@ li {
     font-size: 1.3em;
     font-weight: bold;
 }
-.wrap2 ul{margin-top: 50px;}
+.wrap2 ul{
+    margin-top: 50px;
+}
 
