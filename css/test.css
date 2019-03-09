@@ -52,6 +52,12 @@ strong {
 li {
     list-style-type: none;
 }
+li img {
+    float: left;
+}
+li div {
+    float: right;
+}
 .about-me__image-container {
     width: 40%;
     max-width: 400px;
