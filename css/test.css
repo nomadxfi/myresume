@@ -49,14 +49,18 @@ strong {
     margin-left: -40px;
     text-transform: uppercase;
 }
+.about-me__img {
+    width: 30%;
+}
+.about-me__skill {
+    color: #ffcb05;
+}
+.about-me__scale {
+    color: #ffffff;
+}
 li {
+    display: flex;
     list-style-type: none;
-}
-li img {
-    float: left;
-}
-li div {
-    float: right;
 }
 .about-me__image-container {
     width: 40%;
