@@ -21,7 +21,7 @@ strong {
     padding-left: 40px;
     background-color: #ffcb05;
     width: 60%;
-    padding-right: 120px;
+    padding-right: 70px;
 }
 .about-me__name {
     text-transform: uppercase;
@@ -43,24 +43,39 @@ strong {
     text-align: justify;
 }
 .about-me__skills-list {
+    margin-left: -40px;
+    width: calc(100% + 40px + 70px);
+    margin-top: auto;
+    padding: 20px 0px;
+}
+.skills {
     display: flex;
     justify-content: space-around;
     background-color: #2b2e32;
-    margin-left: -40px;
-    text-transform: uppercase;
 }
-.about-me__img {
-    width: 30%;
-}
-.about-me__skill {
-    color: #ffcb05;
-}
-.about-me__scale {
-    color: #ffffff;
-}
-li {
+.skills-item {
     display: flex;
     list-style-type: none;
+    margin: auto;
+    line-height: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+.skills-item__skill,
+.skills-item__scale {
+    text-transform: uppercase;
+}
+.skills-item__image {
+    width: 30%;
+    height: auto;
+    max-height: 40px;
+}
+.skills-item__skill {
+    color: #ffcb05;
+}
+.skills-item__scale {
+    color: #ffffff;
 }
 .about-me__image-container {
     width: 40%;
