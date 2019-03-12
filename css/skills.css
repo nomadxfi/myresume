@@ -1,0 +1,37 @@
+.about-me__skills-list {
+    margin-left: -40px;
+    width: calc(100% + 40px + 70px);
+    margin-top: auto;
+    padding: 20px 0px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2b2e32;
+}
+.skills__item {
+    display: flex;
+    list-style-type: none;
+    line-height: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 50px;
+}
+.skills__item-skill {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffcb05;
+    letter-spacing: 2px;
+}
+.skills__item-scale {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.skills__item-image {
+    width: 30%;
+    height: auto;
+    max-height: 40px;
+}
