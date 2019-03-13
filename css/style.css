@@ -27,6 +27,7 @@ strong {
     padding-left: 40px;
     background-color: #ffcb05;
     width: 60%;
+    padding-top:25px;
     padding-right: 70px;
 }
 .about-me__name {
@@ -35,7 +36,6 @@ strong {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     color: #414142;
-    margin-top: 25px;
 }
 .about-me__specialization {
     text-align: center;

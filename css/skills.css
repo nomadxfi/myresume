@@ -2,11 +2,11 @@
     margin-left: -40px;
     width: calc(100% + 40px + 70px);
     margin-top: auto;
-    padding: 20px 0px;
+    padding: 20px 8% 20px 40px;
 }
 .skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #2b2e32;
 }
 .skills__item {
@@ -14,7 +14,7 @@
     list-style-type: none;
     line-height: 25px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-right: 20px;
 }
 .skills__item-skill {
@@ -33,7 +33,8 @@
     color: #ffffff;
 }
 .skills__item-image {
-    width: 30%;
+    width: 35px;
     height: auto;
     max-height: 40px;
+    margin-right: 20px;
 }
