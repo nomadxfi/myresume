@@ -12,7 +12,7 @@ body {
 strong {
     font-weight: bold;
 }
-.about-me {
+ section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -62,5 +62,27 @@ strong {
     max-width: 100%;
     height: auto;
 }
+.title {
+    font-size: 1.5em;
+    font-family: BebasNeue;
+    color: #ffffff;
+    text-align: left;
+}
+.inner {
+    display: flex;
+    max-height: 480px;
+}
+.follow-me__contacts-list {
+    margin-left: -40px;
+    margin-top: auto;
+    padding: 20px 8% 20px 40px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2b2e32;
+}
+.contacts__item {
 
-
+}
