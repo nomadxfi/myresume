@@ -1,4 +1,4 @@
 # Nomadxfi
 Сайт-визитка
 
-[Ссылка на сайт](nomadxfi.github.io)
+[Ссылка на сайт](https://nomadxfi.github.io)
