@@ -1,0 +1,28 @@
+.rightside-wrap {
+    padding-left: 50%;
+    margin-top: -60%;
+}
+.my-education .portfolio-list {
+    display: flex;
+}
+.portfolio-list__item-years {
+    color: #ffffff;
+}
+.portfolio-list__item-specialization {
+    color: #ffcb05;
+}
+.portfolio-list__item-faculty {
+    color: #ffffff;
+}
+.portfolio-list__item-position {
+    color: #ffcb05;
+}
+.portfolio-list__item-date {
+    color: #8d9299;
+}
+.portfolio-list__item-company {
+    color: #ffcb05;
+}
+.portfolio-list__item-description {
+    color: #8d9299;
+}

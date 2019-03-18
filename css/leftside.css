@@ -1,6 +1,9 @@
 .main-content__wrap {
     padding-left: 80px;
-    background-color: #2b2e32;
+}
+
+.portfolio {
+    background-color: #30343a;
 }
 .portfolio-block__title {
     font-family: 'Bebas Neue', sans-serif;
@@ -10,52 +13,56 @@
     color: #ffffff;
     padding: 30px 0;
 }
-.inner {
+.portfolio-block__inner {
     display: flex;
     flex-direction: column;
-    padding-left: 5px;
+    padding-left: 40px;
     padding-right: 20px;
-    max-width: 40%;
     height: auto;
-}
-.follow-me__links-list {
-    
-}
-.follow-me__portfolio-list {
-    padding: 20px 8% 20px 40px;
 }
 .portfolio-block {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #2b2e32;
     padding: 5px 0;
 }
-.portfolio-block__link {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+.portfolio-list__item {
+    display: flex;
 }
-.portfolio-list {
-    padding-right: 40%;
-}
-.follow-me .portfolio-block__image {
+.portfolio-list__item-image {
     width: 20px;
     height: 20px;
+    margin-right: 20px;
 }
-.my-contacts .portfolio-block__image {
-    width: 30px;
-    height: 30px;
+.portfolio-list__item-link {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 20px;
+}
+.follow-me .portfolio-list__item-image {
+    
+}
+.follow-me .portfolio-list__item-link {
+    
+}
+.my-contacts .portfolio-list__item-image {
     background-color: #ffcb05;
     border-radius: 40%;
 }
-.my-skills .portfolio-block__image {
+.my-contacts .portfolio-list__item-link {
+
+}
+.my-skills .portfolio-list__item-image {
     height: 20px;
     width: 120px;
+    margin-left: auto;
 }
-.my-hobbies .portfolio-block__image {
-    width: 30px;
-    height: 30px;
+.my-skills .portfolio-list__item-link {
+    
+
 }
-.portfolio-block__link p {
-    padding-left: 20px;
+.my-hobbies .portfolio-list__item-image {
+    
+}
+.my-hobbies .portfolio-list__item-link {
+
 }
