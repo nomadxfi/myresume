@@ -1,9 +1,12 @@
 .rightside-wrap {
-    padding-left: 50%;
-    margin-top: -60%;
+    display: flex;
+    width: 70%;
+}
+.bottom-wrap {
+    display: inline-flex;
 }
 .my-education .portfolio-list {
-    display: flex;
+    
 }
 .portfolio-list__item-years {
     color: #ffffff;

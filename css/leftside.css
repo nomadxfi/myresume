@@ -1,7 +1,10 @@
 .main-content__wrap {
     padding-left: 80px;
 }
-
+.leftside-wrap {
+    display: flex;
+    width: 30%;
+}
 .portfolio {
     background-color: #30343a;
 }
