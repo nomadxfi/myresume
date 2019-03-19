@@ -3,9 +3,13 @@
 }
 .leftside-wrap {
     display: flex;
-    width: 30%;
+    flex-direction: column;
+    justify-content: left;
+    width: 40%;
 }
 .portfolio {
+    display: flex;
+    flex-wrap: wrap;
     background-color: #30343a;
 }
 .portfolio-block__title {
@@ -30,6 +34,7 @@
 }
 .portfolio-list__item {
     display: flex;
+    padding: 10px 0;
 }
 .portfolio-list__item-image {
     width: 20px;
@@ -40,6 +45,7 @@
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     margin-right: 20px;
+    font-weight: bold;
 }
 .follow-me .portfolio-list__item-image {
     
@@ -56,7 +62,7 @@
 }
 .my-skills .portfolio-list__item-image {
     height: 20px;
-    width: 120px;
+    width: 200px;
     margin-left: auto;
 }
 .my-skills .portfolio-list__item-link {

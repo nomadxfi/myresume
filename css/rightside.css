@@ -1,15 +1,37 @@
 .rightside-wrap {
     display: flex;
-    width: 70%;
+    flex-direction: column;
+    justify-content: right;
+    width: 60%;
 }
 .bottom-wrap {
+    width: 100%;
     display: inline-flex;
+    justify-content: space-between;
 }
 .my-education .portfolio-list {
-    
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
 }
-.portfolio-list__item-years {
-    color: #ffffff;
+.my-education .portfolio-list__item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.portfolio-list__item-date,
+.portfolio-list__item-specialization,
+.portfolio-list__item-faculty,
+.portfolio-list__item-description,
+.portfolio-list__item-company,
+.portfolio-list__item-position {
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.my-experiences .portfolio-list {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
 }
 .portfolio-list__item-specialization {
     color: #ffcb05;
@@ -24,8 +46,25 @@
     color: #8d9299;
 }
 .portfolio-list__item-company {
-    color: #ffcb05;
+    color: #ffffff;
 }
 .portfolio-list__item-description {
     color: #8d9299;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.my-languages .portfolio-list,
+.my-interests .portfolio-list {
+    display: inline-flex;
+}
+.my-languages .portfolio-list__item,
+.my-interests .portfolio-list__item {
+    flex-direction: column;
+}
+.my-languages .portfolio-list__item-image {
+    width: 80px;
+    height: auto;
+}
+.my-languages .portfolio-list__item {
+    flex-direction: column-reverse;
 }
