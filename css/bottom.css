@@ -1,0 +1,27 @@
+.hobbies-wrap {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+}
+.my-hobbies img {
+    width: 30px;
+    height: 25px;
+}
+.interests-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.interests-wrap p{
+    margin-top: 20px;
+    text-align: center;
+}
+p.portfolio-list__item-link {
+    margin-bottom: 30px;
+}
+.interests-wrap img {
+    width: auto;
+    height: 25px;
+}
+.my-interests {
+    width: 320px;
+}
