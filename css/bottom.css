@@ -24,4 +24,5 @@ p.portfolio-list__item-link {
 }
 .my-interests {
     width: 320px;
+    justify-content: center;
 }
